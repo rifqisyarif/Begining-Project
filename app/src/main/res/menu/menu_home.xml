@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Setting">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/bahasa"
+                    android:title="Bahasa"/>
+                <item
+                    android:id="@+id/tampilan"
+                    android:title="tampilan"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:title="layout"/>
+</menu>
