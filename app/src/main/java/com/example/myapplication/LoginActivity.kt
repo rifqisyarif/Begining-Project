@@ -52,6 +52,7 @@ class LoginActivity : AppCompatActivity() {
 
     }
 
+
     fun signIn(email:String, Password:String){
         for (i in dataEmail.indices){
             val takeDataEmail = dataEmail.get(i)

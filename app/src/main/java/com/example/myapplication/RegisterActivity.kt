@@ -18,4 +18,5 @@ class RegisterActivity : AppCompatActivity() {
         onBackPressed()
         return true
     }
+
 }
