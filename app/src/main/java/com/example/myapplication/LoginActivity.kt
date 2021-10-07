@@ -27,16 +27,16 @@ class LoginActivity : AppCompatActivity() {
         val btnForgetPass : TextView = findViewById(R.id.forgot_Password)
         val radioRemember : RadioButton = findViewById(R.id.remember_Me)
 
-        val builder = AlertDialog.Builder(this, R.style.AlertDialog_AppCompat).create()
-        builder.setTitle("Harap diisi dengan hati hati")
-        builder.setMessage("Tentukan pilihan Anda")
-        builder.setIcon(R.drawable.ic_person)
+//        val builder = AlertDialog.Builder(this, R.style.AlertDialog_AppCompat).create()
+//        builder.setTitle("Harap diisi dengan hati hati")
+//        builder.setMessage("Tentukan pilihan Anda")
+//        builder.setIcon(R.drawable.ic_person)
 //        builder.setPositiveButton("OK",
 //            DialogInterface.OnClickListener { dialog, which })
-        builder.setCancelable(true)
-        builder.show()
+//        builder.setCancelable(true)
+//        builder.show()
 
-        dataEmail = arrayOf("umar","andika","fatihariz")
+        dataEmail = arrayOf("rifqi","syarifuddin","budi")
         dataPassword = arrayOf("1234", "4321", "1423")
 
         btnLogin.setOnClickListener{
