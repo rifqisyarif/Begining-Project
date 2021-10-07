@@ -73,3 +73,4 @@ class HomeActivity : AppCompatActivity(){
         Toast.makeText(this, "OnDestroy terpanggil", Toast.LENGTH_SHORT).show()
     }
 }
+
